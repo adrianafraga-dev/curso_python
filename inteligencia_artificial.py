@@ -1,7 +1,7 @@
 from google import genai
 
 # The client gets the API key from the environment variable `GEMINI_API_KEY`.
-client = genai.Client(api_key="AIzaSyDs1xOyMDTVzITbeor5TyjEQxnOrzWeW7k")
+client = genai.Client()
 pergunta = input("Digite sua duvida aqui a IA do Google ira responder")
 
 
